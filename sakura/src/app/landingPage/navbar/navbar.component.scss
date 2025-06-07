@@ -1,0 +1,50 @@
+nav {
+    padding: 0 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 112px;
+
+    >img {
+        width: 64px;
+        height: 64px;
+    }
+
+    >div {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        >a {
+            &:hover {
+                color: #9f0908;
+            }
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.phoneBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 220px;
+    height: 44px;
+    background-color: #9f0908;
+    border: 1.5px solid white;
+    border-radius: 8px;
+
+    &:hover {
+        background-color: #db0909;
+    }
+
+    >img {
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+    }
+}
