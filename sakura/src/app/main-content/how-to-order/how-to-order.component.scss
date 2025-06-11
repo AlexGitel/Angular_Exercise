@@ -1,0 +1,40 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0px;
+    background-color: white;
+
+    .icons_container {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+
+        .icons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            width: 280px;
+            text-align: center;
+        }
+
+        img {
+            width: 128px;
+        }
+    }
+}
+
+h2 {
+    font-size: 80px;
+    font-weight: bold;
+    padding-bottom: 64px;
+    color: #9F0908;
+    font-family: Raleway;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 56px;
+    font-family: Economica;
+}

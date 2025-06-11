@@ -1,0 +1,71 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 160px;
+    background-image: url('./../../../assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .tonkotsu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 352px;
+            height: 352px;
+            padding-right: 80px;
+        }
+    }
+
+    .miso_ramen {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 56px 0;
+
+        img {
+            width: 352px;
+            height: 352px;
+            padding-left: 80px;
+        }
+    }
+
+    .shio {
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 352px;
+            height: 352px;
+            padding-right: 80px;
+        }
+    }
+}
+
+h2 {
+    font-size: 80px;
+    font-weight: bold;
+    padding-bottom: 64px;
+    color: #9F0908;
+    font-family: Raleway;
+}
+
+h3 {
+    padding-bottom: 16px;
+    font-family: Economica;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+td {
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: bold;
+    font-variant: small-caps lining-nums;
+    padding-bottom: 8px;
+}

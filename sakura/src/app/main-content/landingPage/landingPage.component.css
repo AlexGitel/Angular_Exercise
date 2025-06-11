@@ -7,7 +7,7 @@ h1 {
 section {
   height: 100vh;
   width: 100%;
-  background-image: url("./../../assets/img/1_hero/JPG/hero_bg.jpg");
+  background-image: url("./../../../assets/img/1_hero/JPG/hero_bg.jpg");
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -17,4 +17,6 @@ section {
   font-size: 24px;
   font-weight: 400;
   color: white;
-}/*# sourceMappingURL=landingPage.component.css.map */
+}
+
+/*# sourceMappingURL=landingPage.component.css.map */

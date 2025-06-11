@@ -26,6 +26,8 @@ nav {
 a {
     text-decoration: none;
     color: whitesmoke;
+    font-family: Raleway;
+    font-size: 24px;
 }
 
 .phoneBtn {
@@ -37,6 +39,7 @@ a {
     background-color: #9f0908;
     border: 1.5px solid white;
     border-radius: 8px;
+    font-variant: small-caps lining-nums;
 
     &:hover {
         background-color: #db0909;
