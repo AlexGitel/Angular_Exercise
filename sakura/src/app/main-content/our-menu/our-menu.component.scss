@@ -8,7 +8,8 @@ section {
     background-position: center;
     background-repeat: no-repeat;
 
-    .tonkotsu {
+    .tonkotsu,
+    .shio {
         width: 100%;
         display: flex;
         align-items: center;
@@ -33,18 +34,6 @@ section {
             padding-left: 80px;
         }
     }
-
-    .shio {
-        width: 100%;
-        display: flex;
-        align-items: center;
-
-        img {
-            width: 352px;
-            height: 352px;
-            padding-right: 80px;
-        }
-    }
 }
 
 h2 {
@@ -62,10 +51,19 @@ h3 {
     font-weight: bold;
 }
 
-td {
+table {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
     font-family: Raleway;
     font-size: 32px;
     font-weight: bold;
     font-variant: small-caps lining-nums;
     padding-bottom: 8px;
+    color: #675E54;
+
+    tr {
+        display: flex;
+        justify-content: space-between;
+    }
 }

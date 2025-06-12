@@ -1,0 +1,40 @@
+section {
+    background-image: url('./../../assets/img/1_hero/JPG/hero_bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: 'Raleway';
+    font-variant: small-caps lining-nums;
+
+    h1 {
+        padding-bottom: 16px;
+        font-size: 48px;
+        text-decoration: underline;
+    }
+
+    h2 {
+        padding-bottom: 16px;
+    }
+
+    span {
+        padding-bottom: 16px;
+        font-size: 24px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+
+    &:hover {
+        text-decoration: underline;
+        color: #9f0908;
+    }
+}
