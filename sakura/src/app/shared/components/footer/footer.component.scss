@@ -7,8 +7,12 @@
     background-color: black;
 
     .logo {
-        height: 44px;
-        color: white;
+        a {
+            >img {
+                height: 44px;
+                color: white;
+            }
+        }
     }
 
     a {
@@ -19,5 +23,36 @@
         &:hover {
             color: #db0909;
         }
+    }
+}
+
+@media (max-width: 1200px) {
+    .footer {
+        padding: 0 32px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 0 18px;
+
+        .logo {
+            a {
+                img {
+                    height: 22px;
+                }
+            }
+        }
+
+        a {
+            font-size: 16px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        height: 70px;
     }
 }

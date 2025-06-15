@@ -8,11 +8,8 @@ import { ImprintComponent } from './imprint/imprint.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule,
-    RouterOutlet,
-    MainContentComponent,
-    FooterComponent,
-    ImprintComponent],
+  imports: [CommonModule, RouterOutlet, MainContentComponent,
+    FooterComponent, ImprintComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })

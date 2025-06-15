@@ -47,7 +47,60 @@ a {
 
     >img {
         width: 32px;
-        height: 32px;
         cursor: pointer;
+    }
+}
+
+@media (max-width: 1200px) {
+    nav {
+        padding: 0 32px;
+
+        >img {
+            width: 32px;
+            height: 32px;
+        }
+
+        >div {
+            gap: 12px;
+        }
+    }
+
+    a {
+        font-size: 16px;
+    }
+
+    .phoneBtn {
+        width: 170px;
+
+        >img {
+            width: 22px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .phoneBtn {
+        width: 150px;
+        height: 36px;
+
+        >img {
+            width: 22px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    nav {
+        padding: 0 18px;
+
+        >div {
+            flex-direction: column-reverse;
+            align-items: end;
+            padding-top: 50px;
+        }
+
+        .phoneBtn {
+            height: 26px;
+        }
     }
 }

@@ -11,7 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component'
         <div class="nav_div"><app-navbar></app-navbar></div>
         <h1 class="fontRaleway"> SAKURA RAMEN </h1>
         <h6 class="fontRaleway"> BEST RAMEN IN TOWN</h6>
-        </section>
+    </section>
     `,
     styleUrls: ['./landingPage.component.scss']
 })

@@ -7,8 +7,7 @@ $mainText-color: whitesmoke;
 h1 {
     color: $mainText-color;
     font-size: 96px;
-    font-weight: bold;
-    padding-top: 112px;
+    margin-top: 112px;
 }
 
 h6 {
@@ -27,4 +26,26 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 48px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
 }

@@ -14,7 +14,7 @@ section {
         display: flex;
         align-items: center;
 
-        img {
+        >img {
             width: 352px;
             height: 352px;
             padding-right: 80px;
@@ -28,7 +28,7 @@ section {
         justify-content: flex-end;
         padding: 56px 0;
 
-        img {
+        >img {
             width: 352px;
             height: 352px;
             padding-left: 80px;
@@ -36,7 +36,7 @@ section {
     }
 }
 
-h2 {
+h1 {
     font-size: 80px;
     font-weight: bold;
     padding-bottom: 64px;
@@ -48,7 +48,6 @@ h3 {
     padding-bottom: 16px;
     font-family: Economica;
     font-size: 56px;
-    font-weight: bold;
 }
 
 table {
@@ -65,5 +64,107 @@ table {
     tr {
         display: flex;
         justify-content: space-between;
+    }
+}
+
+@media (max-width: 1200px) {
+    section {
+        padding: 120px 32px;
+
+        .tonkotsu,
+        .miso_ramen,
+        .shio {
+            >img {
+                width: 240px;
+                height: 240px;
+            }
+        }
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+
+    h3 {
+        font-size: 42px;
+        padding-bottom: 8px;
+    }
+
+    table {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 40px 18px;
+
+        .tonkotsu,
+        .shio {
+            >img {
+                padding-right: 40px;
+                width: 150px;
+                height: 150px;
+            }
+        }
+
+        .miso_ramen {
+            padding: 56px 0;
+
+            >img {
+                padding-left: 40px;
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    table {
+        font-size: 16px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    section {
+        padding: 40px 18px;
+        text-align: center;
+
+        .tonkotsu,
+        .shio {
+            flex-direction: column;
+
+            >img {
+                padding-right: 0px;
+                padding-bottom: 28px;
+                width: 120px;
+                height: 120px;
+            }
+        }
+
+        .miso_ramen {
+            padding: 40px 0;
+            flex-direction: column-reverse;
+
+            >img {
+                padding-left: 0px;
+                padding-bottom: 28px;
+                width: 120px;
+                height: 120px;
+            }
+        }
+    }
+
+    h1 {
+        font-size: 36px;
+        padding-bottom: 44px;
     }
 }
