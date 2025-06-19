@@ -1,3 +1,8 @@
+@mixin measure() {
+    width: 352px;
+    height: 352px;
+}
+
 section {
     display: flex;
     flex-direction: column;
@@ -15,8 +20,7 @@ section {
         align-items: center;
 
         >img {
-            width: 352px;
-            height: 352px;
+            @include measure();
             padding-right: 80px;
         }
     }
@@ -29,8 +33,7 @@ section {
         padding: 56px 0;
 
         >img {
-            width: 352px;
-            height: 352px;
+            @include measure();
             padding-left: 80px;
         }
     }
