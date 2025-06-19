@@ -17,7 +17,15 @@ nav {
 
         >a {
             &:hover {
-                color: #9f0908;
+                &:nth-child(1) {
+                    color: #FCB081
+                }
+
+                &:nth-child(2) {
+                    color: #F93A5A;
+                }
+
+                color: #FFC3DC;
             }
         }
     }
@@ -43,6 +51,14 @@ a {
 
     &:hover {
         background-color: #db0909;
+
+        >a {
+            color: #FCB081;
+        }
+
+        >img {
+            filter: invert(57%) sepia(90%) saturate(1128%) hue-rotate(5deg) brightness(110%) contrast(102%);
+        }
     }
 
     >img {
